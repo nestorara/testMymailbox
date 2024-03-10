@@ -1,0 +1,14 @@
+---
+name: 'Add label to PR based on conventional commit'
+
+on:
+  pull_request_target:
+    types: [opened, edited]
+
+jobs:
+  label:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: bcoe/conventional-release-labels@v1
+        with:
+          type_labels: '{"feat": "feature", "fix": "fix", "breaking": "breaking-change"}'

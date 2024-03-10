@@ -1,0 +1,53 @@
+---
+tests:
+  - changed-files:
+      - any-glob-to-any-file:
+          - tests/**
+          - .jest/**
+          - scripts/calculate-global-test-coverage.ts
+          - jest.config.ts
+          - nyc.config.js
+docs:
+  - changed-files:
+      - any-glob-to-any-file:
+          - docs/**
+          - README.md
+          - images/**
+build:
+  - changed-files:
+      - any-glob-to-any-file:
+          - .dockerignore
+          - Dockerfile
+          - docker-compose.yml
+          - .nvmrc
+          - .swcrc
+          - tsconfig.json
+          - tsconfig.prod.json
+config:
+  - changed-files:
+      - any-glob-to-any-file:
+          - .dockerignore
+          - .editorconfig
+          - .env.example
+          - .eslintignore
+          - .eslintrc
+          - .gitignore
+          - .npmignore
+          - .npmrc
+          - .nvmrc
+          - .prettierignore
+          - .swcrc
+          - .yamllint.yml
+          - .commitlint.config.js
+          - jest.config.ts
+          - commitlint.config.ts
+          - nest-cli.json
+          - nyc.config.js
+          - prettier.config.js
+          - tsconfig.json
+          - tsconfig.prod.json
+depends:
+  - changed-files:
+      - any-glob-to-any-file:
+          - package.json
+          - package-lock.json

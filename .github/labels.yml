@@ -1,0 +1,57 @@
+---
+- name: tests
+  description: New tests or improvements
+  color: 088E26
+- name: breaking-change
+  description: Breaking changes in the source code
+  color: F1F800
+- name: build
+  description: Changes in the build stage
+  color: 0FD4DA
+- name: done
+  description: Idea or task in finished
+  color: 8957E5
+- name: beta
+  description: Idea or task in beta phase
+  color: DB6D28
+- name: in-progress
+  description: Ideas or tasks currently being worked on
+  color: D29922
+- name: ready
+  description: Idea or task to work
+  color: 1F6FEB
+- name: backlog
+  description: Ideas and tasks to be evaluated
+  color: DB61A2
+- name: bug
+  description: New bug identified
+  color: F85149
+- name: config
+  description: Configuration changes
+  color: BDBDBD
+- name: depends
+  description: Pull requests with updates or new dependencies
+  color: A0FC37
+- name: docs
+  description: Improvements or additions to documentation
+  color: 228AFF
+- name: duplicate
+  description: This request is duplicated or a pull request already exists
+  color: FBCA04
+- name: feature
+  description: New feature request
+  color: D876E3
+- name: fix
+  description: New fix applied in the pull request
+  color: 5319E7
+- name: invalid
+  description:
+    The issue or pull request does not follow the specified format
+    or more information is needed
+  color: E4E669
+- name: question
+  description: Further information is requested
+  color: 006B75
+- name: wontfix
+  description: Something will never be solved
+  color: FFFFFF
